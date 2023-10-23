@@ -33,14 +33,6 @@
     margin: 0 auto;
 }
 
-.footer-row{
-    display: flex;
-    height: 70px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
 .footer-content{
     display: flex;
     height: 50px;
@@ -48,26 +40,12 @@
     padding: 5px;
 }
 
-/* HEADER */
-
-.header-row{
-    display: flex;
-    height: 75px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.header-content{
-    display: flex;
-    padding: 10px;
-    max-width: 600px;
-    justify-content: center;
-    
-}
- 
 /* CLASSIC SECTION ROW */
+
+.row-sm-padding{
+    padding: 20px;
+
+}
 
 .row-padding{
     padding: 100px 0px;
@@ -119,6 +97,10 @@
 
 /* POSITIONING */
 
+.justify-start{
+    justify-content: start;
+}
+
 .f-wrap{
     flex-wrap: wrap;
 }
@@ -169,6 +151,10 @@
     padding-bottom: 30px;
 }
 
+.padding-10{
+    padding: 10px;
+}
+
 .general-padding{
     padding: 15px;
 }
@@ -182,8 +168,8 @@
 }
 
 /* BORDI */
-/* 
-*{
+
+/* *{
     border: 1px dashed red;
 } */
 
@@ -229,6 +215,29 @@
 
 .p-style{
    line-height: 1.5;
+}
+
+/* LIST SETTINGS */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.ul-padding{
+    padding: 50px 10px;
+}
+
+ul{
+    color: rgb(42, 94, 232);
+    list-style-type: none;
+    font-weight: 500;
+}
+
+li{
+    color: white;
+    font-weight: 500;
+    padding: 7px 0px;
 }
 
 /* COLORS */
@@ -290,6 +299,10 @@
 
 .col-50{
     width: calc(50%);
+}
+
+.col-30{
+    width: calc(30%);
 }
 
 .col-15{
