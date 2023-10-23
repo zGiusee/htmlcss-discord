@@ -13,15 +13,15 @@
 
 .left-text-container{
     max-width: 50%;
-    justify-content: flex-end;
+    margin: auto 0 auto auto;
 }
 
 .container{
+   display: flex;
    margin: 0 auto; 
 }
 
-/* ROW AND CONTENT */
- 
+
 /* FOOTER */
 
 .footer-list-row{
@@ -81,35 +81,21 @@
    align-items: center;
 }
 
-.content{
-    
-}
 
 /* IMAGES */
+
+.star{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;    
+}
+
 
 .left-img-container{
     display: flex;
     justify-content: flex-end;
     padding-right: 50px;
-}
-
-.right-img-container{
-    
-  }
-
-/* BIGGER SECTION */
-
-.bigger-row{
-    display: flex;
-    width: 100%;
-    height: 800px;
-    align-items: center;
-    justify-content: center;
-}
-
-.big-content{
-    height: 700px;
-    max-width: 1000px;
 }
 
 /* BANNER */
@@ -130,15 +116,19 @@
     background-size: contain;
  }
 
-.banner-content{
-    text-align: center;
-}
-
 
 /* POSITIONING */
 
-.text-end{
-    flex-direction: row-reverse;
+.f-wrap{
+    flex-wrap: wrap;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
 }
 
 .align-top{
@@ -171,6 +161,25 @@
     text-align: center;
 }
 
+.padding-left-right{
+    padding: 0 15px;
+}
+
+.padding-bot{
+    padding-bottom: 30px;
+}
+
+.general-padding{
+    padding: 15px;
+}
+
+.word-spacing{
+   word-spacing: 10px;
+}
+
+.title-padding{
+    padding: 10px 0px;
+}
 
 /* BORDI */
 /* 
@@ -190,6 +199,12 @@
     color: rgb(36, 34, 34);
     font-size: 20px;
     text-decoration: none;
+    padding: 10px 0;
+}
+
+.black-font-title-sm{
+    color: rgb(36, 34, 34);
+    font-size: 30px;
     padding: 10px 0;
 }
 
@@ -214,22 +229,6 @@
 
 .p-style{
    line-height: 1.5;
-}
-
-.padding-left-right{
-    padding: 0 15px;
-}
-
-.general-text-padding{
-    padding: 15px;
-}
-
-.word-spacing{
-   word-spacing: 10px;
-}
-
-.title-padding{
-    padding: 10px 0px;
 }
 
 /* COLORS */
@@ -266,21 +265,6 @@
     background-color: lightblue;
 }
 
-/* .bg-pink{
-    background-color: pink;
-}
-
-.bg-azzurro{
-    background-color: rgb(0, 110, 255);
-}
-
-.bg-green{
-    background-color: green;
-}
-
-.bg-yellow{
-    background-color: yellow;
-} */ */
 
 /* COLUMN */
 
