@@ -7,6 +7,10 @@
 
 /* CONTAINER */
    
+.mini-logo-container{
+    padding: 10px 0px;
+}
+
 .text-container{
     max-width: 50%;
 }
@@ -26,8 +30,6 @@
 
 .footer-list-row{
     display: flex;
-    height: 440px;
-    width: 1000px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -43,7 +45,7 @@
 /* CLASSIC SECTION ROW */
 
 .row-sm-padding{
-    padding: 20px;
+    padding: 30px;
 
 }
 
@@ -62,13 +64,24 @@
 
 /* IMAGES */
 
+.mini-logo-ref{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.logo-ita{
+    width: 30px;
+    height: 20px;
+}
+
 .star{
     background-image: url(../img/stars.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;    
 }
-
 
 .left-img-container{
     display: flex;
@@ -173,6 +186,17 @@
     border: 1px dashed red;
 } */
 
+/* TENDINA LINGUE */
+
+.tendina-lingue{
+    background-color: transparent; 
+    border: 0;
+    color: white;
+    background-color: rgb(36, 34, 34);
+    text-align: center;
+}
+
+
 /* FONTS AND CUSTOMIZATION */
 
 .white-font{
@@ -206,6 +230,12 @@
     padding: 10px 0;
 }
 
+.blue-font-title{
+    color: rgb(42, 94, 232);
+    font-size: 40px;
+    padding: 10px 0;
+}
+
 .button-style{
     border: 0;
     padding: 10px 15px;
@@ -224,14 +254,11 @@ a{
     color: white;
 }
 
-.ul-padding{
-    padding: 50px 10px;
-}
-
 ul{
     color: rgb(42, 94, 232);
     list-style-type: none;
     font-weight: 500;
+    padding: 30px 40px;
 }
 
 li{
