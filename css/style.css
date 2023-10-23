@@ -252,24 +252,38 @@
    line-height: 1.5;
 }
 
-/* LIST SETTINGS */
+/* FOOTER/HEADER LIST SETTINGS */
 
 a{
     text-decoration: none;
     color: white;
 }
 
-ul{
+.header-ul{
+  display: inline;
+  color: rgb(42, 94, 232);
+  list-style-type: none;
+  font-weight: 500;
+}
+
+.header-li{
+    display: inline;
+    color: white;
+    font-weight: 500;
+    padding: 0px 30px;
+}
+
+.footer-ul{
     color: rgb(42, 94, 232);
     list-style-type: none;
     font-weight: 500;
     padding: 30px 40px;
 }
 
-li{
+.footer-li{
     color: white;
     font-weight: 500;
-    padding: 7px 0px;
+    padding: 10px 0px;
 }
 
 /* COLORS */
