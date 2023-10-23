@@ -11,13 +11,12 @@
     padding: 10px 0px;
 }
 
-.text-container{
+.left-text-container{
     max-width: 50%;
 }
 
-.left-text-container{
+.text-container{
     max-width: 50%;
-    margin: auto 0 auto auto;
 }
 
 .container{
@@ -172,6 +171,11 @@
 
 .title-padding{
     padding: 10px 0px;
+}
+
+.max-width-80{
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 /* BORDI */
