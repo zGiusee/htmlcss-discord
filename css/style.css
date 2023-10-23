@@ -179,6 +179,11 @@
     margin: 0 auto;
 }
 
+.max-width-75{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
 /* BORDI */
 
 /* *{
@@ -198,7 +203,7 @@
 /* HR */
 
 .hr{
-    max-width: 75%;
+    max-width: 80%;
     margin: auto;
 }
 
