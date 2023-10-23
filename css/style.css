@@ -242,7 +242,7 @@
 }
 
 .bg-black{
-    background-color: black;
+    background-color: rgb(36, 34, 34);
 }
 
 .bg-button-black{
@@ -259,6 +259,10 @@
 
 .bg-blue{
     background-color: rgb(42, 94, 232);
+}
+
+.blue{
+    color: rgb(42, 94, 232);
 }
 
 .bg-lightblue{
