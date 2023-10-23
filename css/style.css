@@ -35,12 +35,6 @@
     margin: 0 auto;
 }
 
-.footer-content{
-    display: flex;
-    height: 50px;
-    max-width: 500px;
-    padding: 5px;
-}
 
 /* CLASSIC SECTION ROW */
 
@@ -196,6 +190,12 @@
     text-align: center;
 }
 
+/* HR */
+
+.hr{
+    max-width: 75%;
+    margin: auto;
+}
 
 /* FONTS AND CUSTOMIZATION */
 
@@ -320,8 +320,12 @@ li{
   width: calc(60%);
 }
 
-.col-40{
+.col-40-normal{
     width: calc(40%);
+}
+
+.col-40{
+    width: calc(40% - 80px);
 }
 
 .col-50{
@@ -332,8 +336,12 @@ li{
     width: calc(30%);
 }
 
+.col-10{
+    width: calc(10%);
+}
+
 .col-15{
-    width: calc(15%);
+    width: calc(15%, 20px);
 }
 
 .col-100{
