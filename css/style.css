@@ -11,6 +11,11 @@
     max-width: 50%;
 }
 
+.left-text-container{
+    max-width: 50%;
+    
+}
+
 .container{
    margin: 0 auto; 
 }
@@ -77,8 +82,7 @@
 }
 
 .content{
-    display: flex;
-    align-items: center;
+    display: flex; 
 }
 
 /* IMAGES */
@@ -89,7 +93,7 @@
 }
 
 .right-img-container{
-    padding-left: 50px;
+    
   }
 
 /* BIGGER SECTION */
@@ -131,6 +135,10 @@
 
 
 /* POSITIONING */
+
+.text-end{
+    flex-direction: row-reverse;
+}
 
 .align-top{
     align-self: first baseline;
@@ -187,7 +195,7 @@
 .white-font-title{
     color: white;
     font-weight: 700;
-    font-size: 0px;
+    font-size: 50px;
 }
 
 .black-font-title{
@@ -226,7 +234,7 @@
 /* COLORS */
 
 .bg-lightgray{
-    background-color: lightgrey;
+    background-color: rgb(240, 240, 240);
 }
 
 .lightgray{
