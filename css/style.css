@@ -13,7 +13,7 @@
 
 .left-text-container{
     max-width: 50%;
-    
+    justify-content: flex-end;
 }
 
 .container{
@@ -82,14 +82,15 @@
 }
 
 .content{
-    display: flex; 
+    
 }
 
 /* IMAGES */
 
 .left-img-container{
-  justify-content: flex-end;
-  padding-right: 50px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
 }
 
 .right-img-container{
@@ -212,7 +213,7 @@
 }
 
 .p-style{
-   line-height: 1.6;
+   line-height: 1.5;
 }
 
 .padding-left-right{
